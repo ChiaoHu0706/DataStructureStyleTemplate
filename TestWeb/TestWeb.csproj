@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\lib\Index.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\Index.css" />
+    <None Include="wwwroot\Image\BackGround1.png" />
+    <None Include="wwwroot\Image\BackGround2.png" />
+    <None Include="wwwroot\Image\CatHanoiTower.png" />
+  </ItemGroup>
+
+</Project>
